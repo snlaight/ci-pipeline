@@ -2,12 +2,11 @@ name: CI
 
 on: [push]
 
-jobs: 
-      build: 
+jobs:
+  build:
 
-      runs-on: [ubuntu-latest]
-
-      steps: 
+    runs-on: ubuntu-latest
+    
       -uses: actions/checkout@v1
       -name: one-liner
       run: echo I'll be back
