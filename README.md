@@ -7,5 +7,5 @@ This project is my first attempt at building a CI pipeline with Heroku -- mistak
 ### COMPLETED TASKS
 - [x] *Initial Commit:* Adds the initial CI integration tests & build feature with Heroku.
 ### FUTURE TASKS
--[] Deploy server.
--[] Deploy client.
+- [ ] Deploy server
+- [ ] Deploy client
