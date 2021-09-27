@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      -uses: actions/checkout@v1
-      -name: one-liner
+      - uses: actions/checkout@v1
+      - name: one-liner
       run: echo I'll be back
-      -name: two-liner
+      - name: two-liner
       run: |
         echo I'll be back,
         echo once again.
