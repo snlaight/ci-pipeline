@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run one-liner
-      run: echo I'll be back.
+      run: echo "I'll be back."
     - name: Run two-liner
       run: |
         echo I'll be back,
