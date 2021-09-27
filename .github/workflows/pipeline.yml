@@ -13,5 +13,5 @@ jobs:
       run: echo "I'll be back."
     - name: Run two-liner
       run: |
-        echo I'll be back,
-        echo once again.
+        echo "I'll be back,
+        echo once again."
